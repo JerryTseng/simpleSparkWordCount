@@ -13,7 +13,6 @@ public class WordCount {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hi, it's a test!!");
 		SparkConf conf = new SparkConf().setMaster("local").setAppName("My App"); 
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		// Load our input data.
