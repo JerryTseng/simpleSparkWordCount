@@ -14,6 +14,7 @@ public class WordCount {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// To test the git pull
+		// To test the git push
 		SparkConf conf = new SparkConf().setMaster("local").setAppName("My App"); 
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		// Load our input data.
